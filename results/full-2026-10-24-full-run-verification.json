@@ -1,0 +1,30 @@
+{
+  "harmful": {
+    "source_rows": 520,
+    "assigned_rows": 520,
+    "training_candidates": 312,
+    "accepted_train": 289,
+    "validation": 104,
+    "test": 104,
+    "disjoint": true,
+    "test_excludes_pilot": true,
+    "before_after_complete": true,
+    "source_sha256": "e863af1739b8de828d36f3d223d91c579e40c84e2bed27c9dc8b4a6f98662880"
+  },
+  "harmless": {
+    "source_rows": 31323,
+    "assigned_rows": 520,
+    "training_candidates": 312,
+    "accepted_train": 294,
+    "validation": 104,
+    "test": 104,
+    "disjoint": true,
+    "test_excludes_pilot": true,
+    "before_after_complete": true,
+    "source_sha256": "81b461d0ece67b736ff43d26239bc9084356ba435b8f975e11c25ec9f38a4011"
+  },
+  "tokenizer_identical_on_all_1040": true,
+  "chat_template_identical": true,
+  "all_12_steps_complete": true,
+  "config_hash": "42f1a1fcaa64c4a10416470908a6c204109d3276a578bbc81934cfd6fad8fe6a"
+}

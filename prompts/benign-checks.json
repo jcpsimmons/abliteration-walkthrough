@@ -1,0 +1,10 @@
+[
+  {"prompt": "What is 17 plus 25? Answer with just the number.", "answer": "42"},
+  {"prompt": "What is 9 times 8? Answer with just the number.", "answer": "72"},
+  {"prompt": "What is the capital of France? Answer in one word.", "answer": "Paris"},
+  {"prompt": "What chemical symbol represents oxygen? Answer with just the symbol.", "answer": "O"},
+  {"prompt": "Translate the English word cat into Spanish. Answer in one word.", "answer": "gato"},
+  {"prompt": "How many sides does a triangle have? Answer with just the number.", "answer": "3"},
+  {"prompt": "What is 100 divided by 4? Answer with just the number.", "answer": "25"},
+  {"prompt": "What planet is known as the Red Planet? Answer in one word.", "answer": "Mars"}
+]

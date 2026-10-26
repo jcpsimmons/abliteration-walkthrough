@@ -1,0 +1,33 @@
+{
+  "format": "JSONL, one original text row per line, upstream split order preserved",
+  "datasets": {
+    "harmful": {
+      "repository": "mlabonne/harmful_behaviors",
+      "url": "https://huggingface.co/datasets/mlabonne/harmful_behaviors",
+      "revision": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+      "file": "harmful_behaviors.jsonl",
+      "sha256": "e863af1739b8de828d36f3d223d91c579e40c84e2bed27c9dc8b4a6f98662880",
+      "rows": 520,
+      "upstream_splits": {
+        "train": 416,
+        "test": 104
+      },
+      "bytes": 44204,
+      "license_declared_in_upstream_card": null
+    },
+    "harmless": {
+      "repository": "mlabonne/harmless_alpaca",
+      "url": "https://huggingface.co/datasets/mlabonne/harmless_alpaca",
+      "revision": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+      "file": "harmless_alpaca.jsonl",
+      "sha256": "81b461d0ece67b736ff43d26239bc9084356ba435b8f975e11c25ec9f38a4011",
+      "rows": 31323,
+      "upstream_splits": {
+        "train": 25058,
+        "test": 6265
+      },
+      "bytes": 2244965,
+      "license_declared_in_upstream_card": null
+    }
+  }
+}

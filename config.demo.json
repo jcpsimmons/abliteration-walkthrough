@@ -1,0 +1,17 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "harmful_dataset": "mlabonne/harmful_behaviors",
+  "harmful_revision": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+  "harmless_dataset": "mlabonne/harmless_alpaca",
+  "harmless_revision": "02c6a92cfcf11bb0c387334f8146d149d65b587f",
+  "seed": 42,
+  "device": "auto",
+  "batch_size": 4,
+  "train_size": 48,
+  "validation_size": 12,
+  "test_size": 24,
+  "max_prompt_tokens": 192,
+  "max_new_tokens": 48,
+  "system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+}

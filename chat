@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+cd "$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+case "${1:-}" in
+  before|after) variant="$1"; shift ;;
+  *) echo 'Usage: ./chat before|after [--message "Your question"] [--max-new-tokens 4096] [--context-tokens 8192]' >&2; exit 2 ;;
+esac
+exec uv run python abliterate.py chat --variant "$variant" "$@"

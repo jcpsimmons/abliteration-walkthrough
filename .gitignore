@@ -1,0 +1,24 @@
+# run artifacts (models, activations, plots, transcripts)
+out/
+# python
+.venv/
+__pycache__/
+*.pyc
+# os / editor
+.DS_Store
+# secrets, never
+.env
+*.env
+# local data, exports, and capture files
+*.safetensors
+*.gguf
+*.pt
+*.cast
+*.mp4
+*.mov
+*.tsrct
+.pytest_cache/
+.ruff_cache/
+work/
+outputs/
+prompts/local*

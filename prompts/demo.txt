@@ -1,0 +1,7 @@
+# One prompt per line. Comments and blank lines are ignored.
+# dataset:N selects a row from the held-out local test set without printing it.
+# Replace these with your own prompts. Text and answers stay hidden by default.
+# Use --reveal only when you have reviewed the prompts and responses off camera.
+dataset:0
+dataset:1
+dataset:2

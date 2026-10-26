@@ -1,0 +1,12 @@
+name: Tests
+on: [push, pull_request]
+jobs:
+  projection:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.12.19'
+      - run: uv sync --frozen --python 3.11
+      - run: uv run python -m unittest discover -s tests -v
